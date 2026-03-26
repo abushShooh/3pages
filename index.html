@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Клиника</title>
+    <title>Анализы</title>
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
-  <body class="m-0 bg-[#f5f5f5] font-sans text-[#24354a]">
+  <body class="m-0 bg-[#f7f8fa] font-sans text-[#24354a]">
     <header class="w-full bg-white shadow-[0_0_0_1px_rgba(15,23,42,0.04)]">
       <div class="mx-auto flex w-full max-w-[1104px] flex-col gap-4 px-4 py-4 sm:px-6 sm:py-5">
         <div class="flex flex-col items-center gap-3 text-center text-[14px] text-[#6b7280] sm:text-[15px] lg:flex-row lg:items-center lg:justify-between lg:text-left">
@@ -54,7 +54,7 @@
                 <li><a href="#" class="block transition hover:text-[#2fa85a]">Врачи</a></li>
                 <li><a href="#" class="block transition hover:text-[#2fa85a]">Услуги</a></li>
                 <li><a href="#" class="block transition hover:text-[#2fa85a]">Диагностика</a></li>
-                <li><a href="#" class="block transition hover:text-[#2fa85a]">Анализы</a></li>
+                <li><a href="#" class="block text-[#2fa85a]">Анализы</a></li>
                 <li><a href="#" class="block transition hover:text-[#2fa85a]">Акции</a></li>
                 <li><a href="#" class="block transition hover:text-[#2fa85a]">Пациентам</a></li>
                 <li><a href="#" class="block transition hover:text-[#2fa85a]">О клинике</a></li>
@@ -65,7 +65,7 @@
           </details>
         </div>
 
-        <div class="hidden items-center justify-between gap-8 border-t border-[#eef2f6] pt-0 lg:flex">
+        <div class="hidden items-center justify-between gap-8 border-t border-[#eef2f6] lg:flex">
           <a href="#" class="shrink-0">
             <img src="./img/logo.svg" alt="Ваш доктор рядом" class="h-auto w-[155px]" />
           </a>
@@ -75,7 +75,7 @@
               <li><a href="#" class="transition hover:text-[#2fa85a]">Врачи</a></li>
               <li><a href="#" class="transition hover:text-[#2fa85a]">Услуги</a></li>
               <li><a href="#" class="transition hover:text-[#2fa85a]">Диагностика</a></li>
-              <li><a href="#" class="transition hover:text-[#2fa85a]">Анализы</a></li>
+              <li><a href="#" class="text-[#2fa85a]">Анализы</a></li>
               <li><a href="#" class="transition hover:text-[#2fa85a]">Акции</a></li>
               <li><a href="#" class="transition hover:text-[#2fa85a]">Пациентам</a></li>
               <li><a href="#" class="transition hover:text-[#2fa85a]">О клинике</a></li>
@@ -86,5 +86,87 @@
         </div>
       </div>
     </header>
+
+    <main class="mx-auto w-full max-w-[1104px] px-4 pb-16 pt-8 sm:px-6 sm:pt-10 lg:pb-24 lg:pt-14">
+      <nav aria-label="Хлебные крошки" class="text-[13px] text-[#6c7a89]">
+        <ol class="flex flex-wrap items-center gap-2">
+          <li><a href="#" class="transition hover:text-[#24354a]">Главная</a></li>
+          <li class="text-[#9aa6b2]">
+            <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m9 18 6-6-6-6" />
+            </svg>
+          </li>
+          <li class="font-medium text-[#24354a]">Анализы</li>
+        </ol>
+      </nav>
+
+      <section class="pt-8 sm:pt-10 lg:pt-12">
+        <h1 class="text-[38px] font-semibold leading-none tracking-[-0.03em] text-[#17324d] sm:text-[46px] lg:text-[54px]">
+          Анализы
+        </h1>
+
+        <div class="mt-8 grid gap-4 lg:mt-10 lg:grid-cols-2 lg:gap-5">
+          <article class="relative overflow-hidden rounded-md bg-[#38be68] px-6 pb-6 pt-7 text-white sm:px-8 sm:pb-8 sm:pt-8">
+            <div class="relative z-10 max-w-[285px]">
+              <h2 class="text-[30px] font-semibold leading-[1.12] tracking-[-0.02em] sm:text-[33px]">
+                Скидка -20% на МРТ
+              </h2>
+              <p class="mt-5 text-[17px] leading-[1.55] text-white/90">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.
+              </p>
+              <p class="mt-5 text-[17px] leading-[1.5] text-white/90">
+                Акция действует до
+              </p>
+              <p class="mt-1 text-[17px] font-semibold leading-[1.5]">22.03.2023</p>
+              <a
+                href="#"
+                class="mt-6 inline-flex min-h-[52px] items-center gap-3 rounded-full bg-white px-8 text-[17px] font-medium text-[#2fa85a] transition hover:bg-[#f4fff7]"
+              >
+                Подробнее
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m9 18 6-6-6-6" />
+                </svg>
+              </a>
+            </div>
+
+            <img
+              src="./img/apparat.svg"
+              alt="МРТ аппарат"
+              class="pointer-events-none mt-8 h-auto w-full max-w-[330px] sm:absolute sm:-bottom-1 sm:right-[-10px] sm:mt-0 sm:w-[54%] lg:w-[56%]"
+            />
+          </article>
+
+          <article class="relative overflow-hidden rounded-md bg-[#35c5df] px-6 pb-6 pt-7 text-white sm:px-8 sm:pb-8 sm:pt-8">
+            <div class="relative z-10 max-w-[285px]">
+              <h2 class="text-[30px] font-semibold leading-[1.12] tracking-[-0.02em] sm:text-[33px]">
+                Скидка -20% на МРТ
+              </h2>
+              <p class="mt-5 text-[17px] leading-[1.55] text-white/90">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra amet dolor sed mi tincidunt pharetra montes.
+              </p>
+              <p class="mt-5 text-[17px] leading-[1.5] text-white/90">
+                Акция действует до
+              </p>
+              <p class="mt-1 text-[17px] font-semibold leading-[1.5]">22.03.2023</p>
+              <a
+                href="#"
+                class="mt-6 inline-flex min-h-[52px] items-center gap-3 rounded-full bg-white px-8 text-[17px] font-medium text-[#2fa85a] transition hover:bg-[#f4fff7]"
+              >
+                Подробнее
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m9 18 6-6-6-6" />
+                </svg>
+              </a>
+            </div>
+
+            <img
+              src="./img/apparat.svg"
+              alt="МРТ аппарат"
+              class="pointer-events-none mt-8 h-auto w-full max-w-[330px] sm:absolute sm:-bottom-1 sm:right-[-10px] sm:mt-0 sm:w-[54%] lg:w-[56%]"
+            />
+          </article>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
