@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клиника</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="m-0 bg-[#f5f5f5] font-sans text-[#24354a]">
+    <header class="w-full bg-white shadow-[0_0_0_1px_rgba(15,23,42,0.04)]">
+      <div class="mx-auto flex w-full max-w-[1104px] flex-col gap-4 px-4 py-4 sm:px-6 sm:py-5">
+        <div class="flex flex-col items-center gap-3 text-center text-[14px] text-[#6b7280] sm:text-[15px] lg:flex-row lg:items-center lg:justify-between lg:text-left">
+          <div class="flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-6 lg:items-center lg:gap-8">
+            <p class="m-0">Сеть клиник Томской области</p>
+            <a href="#" class="inline-flex items-center gap-2 transition hover:text-[#24354a]">
+              <svg class="h-4 w-4 text-[#7b8491]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6Z" />
+                <circle cx="12" cy="12" r="2.8" />
+              </svg>
+              <span>Версия для слабовидящих</span>
+            </a>
+          </div>
+
+          <div class="flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-4 lg:gap-8">
+            <a href="tel:+79780000000" class="whitespace-nowrap text-[17px] font-semibold text-[#111827] transition hover:text-[#2fa85a] sm:text-[18px]">
+              + 7 (978) 00-00-000
+            </a>
+            <a
+              href="#"
+              class="inline-flex min-h-[44px] w-full items-center justify-center rounded-full bg-[#37b45a] px-6 text-[15px] font-medium text-white transition hover:bg-[#2ea34f] sm:w-auto sm:px-7"
+            >
+              Записаться на прием
+            </a>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between gap-4 border-t border-[#eef2f6] pt-3 lg:hidden">
+          <a href="#" class="shrink-0">
+            <img src="./img/logo.svg" alt="Ваш доктор рядом" class="h-auto w-[145px] sm:w-[155px]" />
+          </a>
+
+          <details class="group relative">
+            <summary class="flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-full border border-[#d9e1ea] text-[#24354a] transition hover:border-[#2fa85a] hover:text-[#2fa85a] [&::-webkit-details-marker]:hidden">
+              <svg class="h-5 w-5 group-open:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" />
+              </svg>
+              <svg class="hidden h-5 w-5 group-open:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path stroke-linecap="round" d="m6 6 12 12M18 6 6 18" />
+              </svg>
+            </summary>
+
+            <nav aria-label="Основная навигация" class="absolute right-0 top-[calc(100%+12px)] z-20 w-[260px] rounded-2xl border border-[#eef2f6] bg-white p-4 shadow-xl">
+              <ul class="flex flex-col gap-3 text-[16px] font-normal text-[#24354a]">
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Врачи</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Услуги</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Диагностика</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Анализы</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Акции</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Пациентам</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">О клинике</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Отзывы</a></li>
+                <li><a href="#" class="block transition hover:text-[#2fa85a]">Контакты</a></li>
+              </ul>
+            </nav>
+          </details>
+        </div>
+
+        <div class="hidden items-center justify-between gap-8 border-t border-[#eef2f6] pt-0 lg:flex">
+          <a href="#" class="shrink-0">
+            <img src="./img/logo.svg" alt="Ваш доктор рядом" class="h-auto w-[155px]" />
+          </a>
+
+          <nav aria-label="Основная навигация" class="w-full">
+            <ul class="flex flex-wrap items-center gap-x-8 gap-y-3 text-[16px] font-normal text-[#24354a] lg:justify-end">
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Врачи</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Услуги</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Диагностика</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Анализы</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Акции</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Пациентам</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">О клинике</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Отзывы</a></li>
+              <li><a href="#" class="transition hover:text-[#2fa85a]">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
